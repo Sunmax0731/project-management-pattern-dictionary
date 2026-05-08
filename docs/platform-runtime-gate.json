@@ -1,0 +1,13 @@
+{
+  "product": "project-management-pattern-dictionary",
+  "title": "プロジェクト管理定石・知識辞書",
+  "domain": "Dictionary",
+  "ideaNo": 2,
+  "platformType": "browser-web",
+  "expectedPublicTarget": "GitHub Pages / GitHub Release",
+  "browser": {
+    "evidence": "dist/web-smoke-result.json"
+  },
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
