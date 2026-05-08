@@ -1,0 +1,15 @@
+{
+  "product": "project-management-pattern-dictionary",
+  "entries": [
+    {
+      "title": "プロジェクト管理定石・知識辞書",
+      "pattern": "Issue駆動、レビュー、リリース、Codex活用を用語と判断パターンで整理する辞書",
+      "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする"
+    },
+    {
+      "title": "閉域アルファ評価",
+      "pattern": "代表データ、手動テスト、QCDS、release evidence を同時に確認する。",
+      "nextAction": "docs/traceability-matrix.md を更新する。"
+    }
+  ]
+}

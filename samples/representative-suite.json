@@ -1,0 +1,90 @@
+{
+  "product": "project-management-pattern-dictionary",
+  "generatedAt": "2026-05-08T00:00:20Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "プロジェクト管理定石・知識辞書",
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする",
+          "citation": "プロジェクト管理定石・知識辞書 citation",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする",
+          "citation": "プロジェクト管理定石・知識辞書 citation",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "プロジェクト管理定石・知識辞書",
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "プロジェクト管理定石・知識辞書",
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする",
+          "citation": "プロジェクト管理定石・知識辞書 citation",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "プロジェクト管理定石・知識辞書",
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "citation": "プロジェクト管理定石・知識辞書 citation",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "プロジェクト管理定石・知識辞書",
+          "pattern": "プロジェクト管理定石・知識辞書 pattern",
+          "nextAction": "プロジェクト運用の定石を状況、失敗例、判断基準で検索できるようにする",
+          "reviewDate": "プロジェクト管理定石・知識辞書 reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}
